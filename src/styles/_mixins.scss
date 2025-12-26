@@ -1,0 +1,17 @@
+@use 'variables' as *;
+
+@mixin input-field {
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+@mixin focus-state {
+  outline: none;
+  border-color: $accent-color;
+}

@@ -35,7 +35,7 @@ const onChange = (evt: Event) => {
   outline: 1px solid #ccc;
 
   &:focus-visible {
-    outline: 1px solid $highlight-color;
+    outline: 1px solid $accent-color;
   }
 }
 
